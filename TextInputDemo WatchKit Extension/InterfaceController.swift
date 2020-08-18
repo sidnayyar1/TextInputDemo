@@ -35,7 +35,6 @@ class InterfaceController: WKInterfaceController {
 
             (results) in
                     
-                   
            if (results != nil && results!.count > 0) {
               // 2. write your code to process the person's response
           let userResponse = results?.first as? String
